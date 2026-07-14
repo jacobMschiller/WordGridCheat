@@ -5,7 +5,7 @@ from wordfreq import zipf_frequency
 # 1. Load Local SOWPODS Dictionary File
 # -------------------------------------------------------------------
 
-SOWPODS_FILE = "/Users/jacobschiller/Downloads/sowpods.txt"
+SOWPODS_FILE = "FILE PATH"
 
 def load_sowpods_dictionary() -> list[str]:
     """Reads the local sowpods.txt file into a list of strings."""
